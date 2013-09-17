@@ -2,11 +2,7 @@
 layout: post
 title: "Migration Frame To AutoLayout"
 categories:
-- 
-tags:[iOS]
-- 
-
-
+tags: [iOS]
 ---
 
 
