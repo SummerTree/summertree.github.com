@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://innerdesire.github.com
-author: innerdesire
+url: http://tiantu.github.com
+author: tiantu
 pygments: true
 safe: true
 paginate: 16
