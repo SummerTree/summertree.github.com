@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://tiantu.github.com
-author: tiantu
+url: http://summertree.github.com
+author: summertree
 pygments: true
 safe: true
 paginate: 16
