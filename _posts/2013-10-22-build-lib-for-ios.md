@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "build lib for iOS"
-categories: [iOS]
-tags: [iOS]
+categories:
+tags:
 ---
 
 	#! /bin/bash
