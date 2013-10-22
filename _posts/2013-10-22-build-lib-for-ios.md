@@ -2,11 +2,7 @@
 layout: post
 title: "build lib for iOS"
 categories: [iOS]
-- 
 tags: [iOS]
-- 
-
-
 ---
 
 	#! /bin/bash
