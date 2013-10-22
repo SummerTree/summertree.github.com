@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Edit hosts in OS X"
-categories: OS X
+categories: 
 - 
-tags: [OS X]
+tags: [OSX]
 - 
 
 
