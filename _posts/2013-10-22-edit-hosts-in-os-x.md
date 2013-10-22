@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Edit hosts in OS X"
-categories:userful script
+categories: userful script
 - 
-tags:[userful script]
+tags: [userful script]
 - 
 
 
