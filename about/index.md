@@ -4,15 +4,14 @@ layout: page
 comments: no
 ---
 
-iOS/Mac开发，三年开发生涯。	
-热爱编程，开源索取者，github fork客。正努力编程开源贡献者。		  	
+iOS/Mac开发
 
 ----
 
 ### Contact Me：        
 
-Email: [innerdesire@yeah.net](mailto:innerdesire@yeah.net)     
-Douban：[爬山虎](http://www.douban.com/people/38024106/)    
+Email: [summertree.lee@gmail.com](mailto:summertree.lee@gmail.com)     
+Douban：[summertree](http://www.douban.com/people/38024106/)    
 github : [summertree](https://github.com/summertree)        
 
 ----
