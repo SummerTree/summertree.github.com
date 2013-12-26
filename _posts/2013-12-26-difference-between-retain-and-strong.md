@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "difference between retain and strong"
-categories:
+categories: memory manage
 - 
-tags:
+tags: [iOS]
 - 
 
 
