@@ -18,4 +18,14 @@ tags: iOS
 	 subclass needs custom drawing code, it is recommended you use UIView as 
 	 the base class.
 
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+
 最后解决方式是在UIImageView添加CALayer，在CALayer把线条画出来
