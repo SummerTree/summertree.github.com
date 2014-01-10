@@ -3,8 +3,9 @@ layout: post
 title: "sqlite time function"
 categories:
 tags:
+---
 
-
+-------
 1. 本周
 	strftime('%W', tastings.date) = strftime('%W', 'now')
 2. 当天
