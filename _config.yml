@@ -1,9 +1,8 @@
-markdown: rdiscount
-permalink: /:year/:month/:day/:title/
-url: http://summertree.github.com
-author: summertree
+name: Photo gallery
+markdown: redcarpet
 pygments: true
-safe: true
-paginate: 16
-auto: true
-
+permalink: /:year/:month/:title/
+url: http://nadjetey.github.io/GridGallery/
+author:
+    name: Nii Adjetey Sowah
+    twitter: #

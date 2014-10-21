@@ -1,53 +1,47 @@
 ---
-title: summertree's Homepage
-layout: page
+layout: default
 ---
+<div class="container">
+	<header class="clearfix">
+		<h1>{{ site.name }}</h1>
+	</header>
+	<div id="grid-gallery" class="grid-gallery">
 
-<ul class="listing">
-{% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+	<section class="grid-wrap">
+	<ul class="grid">
+		<li class="grid-sizer"></li><!-- for Masonry column width -->
+		{% for post in site.posts %}
+		<li>
+			<figure>
+				<img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img"/>
+				<figcaption>
+					<h3>{{ post.caption_header}}</h3>
+					<p>{{ post.caption }}</p>
+				</figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	</section><!-- // grid-wrap -->
 
-<div id="post-pagination" class="paginator">
+	<section class="slideshow">
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<figure>
+				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
+				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	<nav>
+		<span class="icon nav-prev"></span>
+		<span class="icon nav-next"></span>
+		<span class="icon nav-close"></span>
+	</nav>
+	<div class="info-keys icon">Navigate with arrow keys</div>
+	</section><!-- // slideshow -->
 
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-    <a href="/"><前页</a>
-    {% else %}
-    <a href="/page{{paginator.previous_page}}"><前页</a>
-    {% endif %}
-  {% else %}
-    <span class="previous disabled"><前页</span>
-  {% endif %}
-
-      {% if paginator.page == 1 %}
-      <span class="current-page">1</span>
-      {% else %}
-      <a href="/">1</a>
-      {% endif %}
-
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-      <span class="current-page">{{count}}</span>
-      {% else %}
-      <a href="/page{{count}}">{{count}}</a>
-      {% endif %}
-    {% endfor %}
-
-  {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">后页></a>
-  {% else %}
-    <span class="next disabled" >后页></span>
-  {% endif %}
-  (共{{ paginator.total_posts }}篇)
+	</div><!-- // grid-gallery -->
 </div>
-
