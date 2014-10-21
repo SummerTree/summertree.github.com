@@ -1,18 +1,4 @@
-#Thinny - The Infinite's Nymphet
+summertree的技术博客
 
-##About
-Thinny is a beautiful theme for [Jekyll](http://jekyllrb.com/).
-
-(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
-
-##Demo
-[![Preview image](https://f.cloud.github.com/assets/5755892/2002329/bdb5a052-85ed-11e3-8e00-a892910b6917.png)](http://camporez.com/)
-The above image is a preview of how the post header looks on Thinny.
-
-A live demo is available [on my personal blog](http://camporez.com/).
-
-##More information
-Read the blog post [here](http://camporez.com/blog/thinny-2/).
-
-##Reporting issues
-You can report an issue or request a feature [here](http://github.com/camporez/camporez.github.io/issues) or on [twitter](http://twitter.com/iancamporez).
+若你对本博的模板感兴趣，欢迎克隆。    
+喜欢折腾的同学可以直接克隆我的仓库，不喜欢折腾的可以克隆这个仓库[https://github.com/Yonsm/NET](https://github.com/Yonsm/NET)该库作者将本模板的配置部分放到了配置文件里，只需稍稍配置便可使用了。
