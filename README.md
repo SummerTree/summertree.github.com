@@ -1,32 +1,18 @@
-Jekyll Photo Grid Gallery
-=========
+#Thinny - The Infinite's Nymphet
 
-Jekyll theme based on [Blueprint: Google Grid Gallery](http://tympanus.net/codrops/?p=18699)
+##About
+Thinny is a beautiful theme for [Jekyll](http://jekyllrb.com/).
 
-## How to use
-1. Place a large image in `/img/large/`
-2. Place a thumbnail version of the same image in `/img/thumb/`. _Remember to use the same file name_
-3. Construction a post to display the image. Use the follow as an example:
-```txt
----
-layout: default
-date:   2014-04-06 23:26:12
-photo: 1.png
-caption_header: Sample header
-caption: sample caption
----
-```
-4. And finally, serve Jekyll source as you would normally.
+(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
 
-## [Demo](https://nadjetey.github.io/GridGallery)
+##Demo
+[![Preview image](https://f.cloud.github.com/assets/5755892/2002329/bdb5a052-85ed-11e3-8e00-a892910b6917.png)](http://camporez.com/)
+The above image is a preview of how the post header looks on Thinny.
 
-View this jekyll theme in action [here](https://nadjetey.github.io/GridGallery)
+A live demo is available [on my personal blog](http://camporez.com/).
 
-## Screenshot
-![screenshot](https://raw.github.com/nadjetey/GridGallery/master/jggg.png)
+##More information
+Read the blog post [here](http://camporez.com/blog/thinny-2/).
 
-Localhost deployment
-=========
-After [downloading](https://github.com/nadjetey/GridGallery/archive/master.zip), use the normal process of serving a jekyll site. Navigate to the directory in terminal and type `jekyll build` followed by `jekyll serve`
-
-For more details, read [documentation](http://jekyllrb.com/)
+##Reporting issues
+You can report an issue or request a feature [here](http://github.com/camporez/camporez.github.io/issues) or on [twitter](http://twitter.com/iancamporez).
